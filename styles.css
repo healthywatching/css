@@ -7727,7 +7727,10 @@ html {
    width: auto;
    height: auto;
   }
-
+.password-field {
+        -webkit-text-security: disc; /* Untuk browser berbasis WebKit (seperti Chrome dan Safari) */
+        text-security: disc; /* Untuk browser yang mendukung properti text-security */
+    }
   button:disabled,
   button[disabled] {
    border: 1px solid #999999;
